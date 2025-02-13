@@ -1,0 +1,4 @@
+include:
+  - project: 'static-websites/aws-cloudfront-multibranch'
+    file: '/.gitlab-ci.yml'
+    ref: main
