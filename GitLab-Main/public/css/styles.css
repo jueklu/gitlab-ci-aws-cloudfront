@@ -1,0 +1,44 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+
+    /* Flexbox centering */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    margin: 0 0 10px; /* Remove default margin and add spacing */
+}
+
+/* Paragraph styling */
+p {
+    color: #666;
+    font-size: 18px;
+    margin: 10px 0; /* Add some spacing */
+}
+
+/* Button styling */
+button {
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add space above the button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #8b4513;
+}
